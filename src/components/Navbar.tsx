@@ -4,7 +4,7 @@ import { Menu, X } from "lucide-react";
 import logo from "@/assets/logo.png";
 import { Button } from "./ui/button";
 
-const navItems = ["Home", "Mood Tracker", "Daily", "Share", "Community", "Talk to Expert", "Counseling", "Habits"];
+const navItems = ["Home", "Mood Tracker", "Daily", "Share", "Community", "Talk to Expert", "Counseling", "Habits", "Centre"];
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
