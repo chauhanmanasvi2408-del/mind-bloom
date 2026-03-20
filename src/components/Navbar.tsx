@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Heart, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import logo from "@/assets/logo.png";
 import { Button } from "./ui/button";
 
 const navItems = ["Home", "Mood Tracker", "Share", "Community", "Talk to Expert", "Counseling", "Habits"];
