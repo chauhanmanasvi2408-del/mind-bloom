@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Heart, Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
 
-const navItems = ["Home", "Mood Tracker", "Share", "Counseling", "Habits"];
+const navItems = ["Home", "Mood Tracker", "Share", "Community", "Talk to Expert", "Counseling", "Habits"];
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
