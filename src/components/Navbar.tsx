@@ -19,6 +19,7 @@ const Navbar = () => {
       "Talk to Expert": "talk-to-expert",
       "Counseling": "counseling",
       "Habits": "habits",
+      "Centre": "centre",
     };
     const el = document.getElementById(idMap[label] || label.toLowerCase());
     el?.scrollIntoView({ behavior: "smooth" });
