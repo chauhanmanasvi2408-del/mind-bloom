@@ -8,8 +8,17 @@ const navItems = ["Home", "Mood Tracker", "Share", "Community", "Talk to Expert"
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const scrollTo = (id: string) => {
-    const el = document.getElementById(id.toLowerCase().replace(" ", "-"));
+  const scrollTo = (label: string) => {
+    const idMap: Record<string, string> = {
+      "Home": "home",
+      "Mood Tracker": "mood-tracker",
+      "Share": "share",
+      "Community": "community",
+      "Talk to Expert": "talk-to-expert",
+      "Counseling": "counseling",
+      "Habits": "habits",
+    };
+    const el = document.getElementById(idMap[label] || label.toLowerCase());
     el?.scrollIntoView({ behavior: "smooth" });
     setIsOpen(false);
   };
