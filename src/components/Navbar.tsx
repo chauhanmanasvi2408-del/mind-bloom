@@ -4,7 +4,7 @@ import { Menu, X } from "lucide-react";
 import logo from "@/assets/logo.png";
 import { Button } from "./ui/button";
 
-const navItems = ["Home", "Mood Tracker", "Daily", "Share", "Community", "Talk to Expert", "Counseling", "Habits"];
+const navItems = ["Home", "Mood Tracker", "Daily", "Share", "Community", "Talk to Expert", "Counseling", "Habits", "Centre"];
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,6 +19,7 @@ const Navbar = () => {
       "Talk to Expert": "talk-to-expert",
       "Counseling": "counseling",
       "Habits": "habits",
+      "Centre": "centre",
     };
     const el = document.getElementById(idMap[label] || label.toLowerCase());
     el?.scrollIntoView({ behavior: "smooth" });
