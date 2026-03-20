@@ -13,6 +13,7 @@ const Navbar = () => {
     const idMap: Record<string, string> = {
       "Home": "home",
       "Mood Tracker": "mood-tracker",
+      "Daily": "daily-checklist",
       "Share": "share",
       "Community": "community",
       "Talk to Expert": "talk-to-expert",
