@@ -4,7 +4,7 @@ import { Menu, X } from "lucide-react";
 import logo from "@/assets/logo.png";
 import { Button } from "./ui/button";
 
-const navItems = ["Home", "Mood Tracker", "Share", "Community", "Talk to Expert", "Counseling", "Habits"];
+const navItems = ["Home", "Mood Tracker", "Daily", "Share", "Community", "Talk to Expert", "Counseling", "Habits"];
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,6 +13,7 @@ const Navbar = () => {
     const idMap: Record<string, string> = {
       "Home": "home",
       "Mood Tracker": "mood-tracker",
+      "Daily": "daily-checklist",
       "Share": "share",
       "Community": "community",
       "Talk to Expert": "talk-to-expert",
