@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="py-10 bg-card border-t border-border">
       <div className="container mx-auto px-4 text-center">
         <div className="flex items-center justify-center gap-2 mb-4">
-          <Heart className="h-5 w-5 text-primary fill-primary" />
+          <img src={logo} alt="Live with Sithirtha" className="h-7 w-7 rounded-full object-cover" />
           <span className="font-display text-lg font-semibold text-foreground">Live with Sithirtha</span>
         </div>
         <p className="text-sm text-muted-foreground max-w-md mx-auto mb-6">

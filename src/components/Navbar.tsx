@@ -32,7 +32,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <div className="flex items-center gap-2 cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
-          <Heart className="h-6 w-6 text-primary fill-primary" />
+          <img src={logo} alt="Live with Sithirtha" className="h-8 w-8 rounded-full object-cover" />
           <span className="font-display text-xl font-semibold text-foreground">
             Live with <span className="text-gradient-calm">Sithirtha</span>
           </span>
